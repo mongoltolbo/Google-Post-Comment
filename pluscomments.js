@@ -22,7 +22,7 @@ commentr.prasePost = function(responseJson) {
         if( postId == postUrl ) {activityId = activity[i].id; break;}
      }
      if(activityId == "") { 
-       commentr.go(nextPageToken);
+     	commentr.go(nextPageToken);
        	} 
      else {
      	commentr.fetchComments(activityId);
